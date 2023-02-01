@@ -27,10 +27,12 @@ a {
 
 .about-me__section{
     display: flex;
-    padding: 80px;
+    padding: 120px 80px 120px 80px;
 }
 
 .about-me__photo-wraper{
+    width: 600px;
+    height: 600px;
     border: 1px solid rgb(0, 0, 0);
     border-radius: 50%;
 }
@@ -88,7 +90,7 @@ a {
 .main-section__text{
     padding-left: 120px;
     padding-right: 120px;
-    padding-bottom: 60px;
+    padding-bottom: 80px;
 
     font-style: normal;
     font-weight: normal;
