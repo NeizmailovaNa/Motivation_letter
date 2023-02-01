@@ -1,0 +1,119 @@
+body,
+h1,
+h2,
+h3,
+h4, 
+p,
+ul,
+li,
+a {
+    margin: 0px;
+}
+
+
+.main-container{
+    width: 1700px;
+    height: 2403px;
+    
+    /*background-color: #fff2f2;*/
+    background-image: repeating-linear-gradient(
+        to bottom right,
+        rgba(140, 140, 174, 0.629),
+        rgba(184, 184, 184, 0.644) 650px,
+        rgba(226, 233, 238, 0.67) 650px,
+        rgba(126, 124, 124, 0.647) 1300px /* Опеределяет размер градиента */
+    );
+}
+
+.about-me__section{
+    display: flex;
+    padding: 80px;
+}
+
+.about-me__photo-wraper{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.about-me__my-photo{
+    border-radius: 50%;
+}
+
+.about-me__contact-wraper{
+    display: block;
+    margin: auto;
+}
+
+.about-me__name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 86px;
+    line-height: 90px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.about-me__profession{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 60px;
+    color: rgb(31, 31, 191);
+    margin-bottom: 30px;
+}
+
+.contact-section__phone,
+.contact-section__mail{
+    display: flex;
+    align-items: center;
+}
+.contact-section__phone{
+    margin-bottom: 20px;
+}
+
+.contact-section__type{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.contact-section__link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 52px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.main-section__text{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 60px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.main-section__text-part-1,
+.main-section__text-part-2,
+.main-section__text-part-3,
+.main-section__text-part-4,
+.main-section__text-part-5,
+.main-section__text-part-6,
+.main-section__text-part-7{
+    margin-bottom: 20px;
+}
+.main-section__text-part-8{
+    margin-bottom: 80px;
+}
+.main-section__name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 60px;
+    color: rgb(0, 0, 0);
+}
